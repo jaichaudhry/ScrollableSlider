@@ -50,3 +50,8 @@ Now you can implement the following methods in your project
     // Use this method to know when the slider starts updating values.
 }
 ```
+
+# Preview
+Your slider would look something like following after integration.
+
+![](http://www.imageno.com/thumbs/20170820/801b85u6i8vg.jpg)
