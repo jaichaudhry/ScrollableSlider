@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4924FD991F49806000D2A6A9 /* scrollableSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4924FD8F1F49806000D2A6A9 /* scrollableSlider.framework */; };
-		4924FD9E1F49806000D2A6A9 /* scrollableSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4924FD9D1F49806000D2A6A9 /* scrollableSliderTests.m */; };
 		4924FDA01F49806000D2A6A9 /* scrollableSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4924FD921F49806000D2A6A9 /* scrollableSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4924FDB01F49817E00D2A6A9 /* JCScrollableSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4924FDAE1F49817E00D2A6A9 /* JCScrollableSlider.m */; };
 		4924FDB11F498A6500D2A6A9 /* JCScrollableSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4924FDAD1F49817E00D2A6A9 /* JCScrollableSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,23 +15,10 @@
 		4924FDF41F49920500D2A6A9 /* indicator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4924FDF11F49920500D2A6A9 /* indicator@3x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4924FD9A1F49806000D2A6A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4924FD861F49806000D2A6A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4924FD8E1F49806000D2A6A9;
-			remoteInfo = scrollableSlider;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4924FD8F1F49806000D2A6A9 /* scrollableSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = scrollableSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4924FD921F49806000D2A6A9 /* scrollableSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scrollableSlider.h; sourceTree = "<group>"; };
 		4924FD931F49806000D2A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4924FD981F49806000D2A6A9 /* scrollableSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollableSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4924FD9D1F49806000D2A6A9 /* scrollableSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollableSliderTests.m; sourceTree = "<group>"; };
-		4924FD9F1F49806000D2A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4924FDAD1F49817E00D2A6A9 /* JCScrollableSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCScrollableSlider.h; sourceTree = "<group>"; };
 		4924FDAE1F49817E00D2A6A9 /* JCScrollableSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCScrollableSlider.m; sourceTree = "<group>"; };
 		4924FDEF1F49920500D2A6A9 /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
@@ -49,14 +34,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4924FD951F49806000D2A6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4924FD991F49806000D2A6A9 /* scrollableSlider.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				4924FD911F49806000D2A6A9 /* scrollableSlider */,
-				4924FD9C1F49806000D2A6A9 /* scrollableSliderTests */,
 				4924FD901F49806000D2A6A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				4924FD8F1F49806000D2A6A9 /* scrollableSlider.framework */,
-				4924FD981F49806000D2A6A9 /* scrollableSliderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,15 +63,6 @@
 				4924FDAE1F49817E00D2A6A9 /* JCScrollableSlider.m */,
 			);
 			path = scrollableSlider;
-			sourceTree = "<group>";
-		};
-		4924FD9C1F49806000D2A6A9 /* scrollableSliderTests */ = {
-			isa = PBXGroup;
-			children = (
-				4924FD9D1F49806000D2A6A9 /* scrollableSliderTests.m */,
-				4924FD9F1F49806000D2A6A9 /* Info.plist */,
-			);
-			path = scrollableSliderTests;
 			sourceTree = "<group>";
 		};
 		4924FDF51F49920600D2A6A9 /* Assets */ = {
@@ -142,24 +108,6 @@
 			productReference = 4924FD8F1F49806000D2A6A9 /* scrollableSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4924FD971F49806000D2A6A9 /* scrollableSliderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4924FDA61F49806000D2A6A9 /* Build configuration list for PBXNativeTarget "scrollableSliderTests" */;
-			buildPhases = (
-				4924FD941F49806000D2A6A9 /* Sources */,
-				4924FD951F49806000D2A6A9 /* Frameworks */,
-				4924FD961F49806000D2A6A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4924FD9B1F49806000D2A6A9 /* PBXTargetDependency */,
-			);
-			name = scrollableSliderTests;
-			productName = scrollableSliderTests;
-			productReference = 4924FD981F49806000D2A6A9 /* scrollableSliderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,11 +118,6 @@
 				ORGANIZATIONNAME = jc;
 				TargetAttributes = {
 					4924FD8E1F49806000D2A6A9 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = H86C3TN3R7;
-						ProvisioningStyle = Automatic;
-					};
-					4924FD971F49806000D2A6A9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = H86C3TN3R7;
 						ProvisioningStyle = Automatic;
@@ -194,7 +137,6 @@
 			projectRoot = "";
 			targets = (
 				4924FD8E1F49806000D2A6A9 /* scrollableSlider */,
-				4924FD971F49806000D2A6A9 /* scrollableSliderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +152,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4924FD961F49806000D2A6A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -228,23 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4924FD941F49806000D2A6A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4924FD9E1F49806000D2A6A9 /* scrollableSliderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4924FD9B1F49806000D2A6A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4924FD8E1F49806000D2A6A9 /* scrollableSlider */;
-			targetProxy = 4924FD9A1F49806000D2A6A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4924FDA11F49806000D2A6A9 /* Debug */ = {
@@ -381,28 +300,6 @@
 			};
 			name = Release;
 		};
-		4924FDA71F49806000D2A6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = H86C3TN3R7;
-				INFOPLIST_FILE = scrollableSliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jc.scrollableSliderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4924FDA81F49806000D2A6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = H86C3TN3R7;
-				INFOPLIST_FILE = scrollableSliderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jc.scrollableSliderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,14 +319,7 @@
 				4924FDA51F49806000D2A6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4924FDA61F49806000D2A6A9 /* Build configuration list for PBXNativeTarget "scrollableSliderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4924FDA71F49806000D2A6A9 /* Debug */,
-				4924FDA81F49806000D2A6A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
