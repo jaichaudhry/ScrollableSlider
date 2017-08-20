@@ -1,0 +1,12 @@
+PODS:
+  - ScrollableSlider (0.1)
+
+DEPENDENCIES:
+  - ScrollableSlider
+
+SPEC CHECKSUMS:
+  ScrollableSlider: d6e40e5445cea91582458446d13cbdcd5ce079a2
+
+PODFILE CHECKSUM: 80d1e48ff68bac0b87708ecb80db912a4e945eb6
+
+COCOAPODS: 1.2.1
