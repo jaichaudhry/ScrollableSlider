@@ -1,5 +1,7 @@
 # ScrollableSlider
 
+This can be used to create a scrollable slider which indicates the current values just like a Scale i.e. representing the values using ticks. 
+
 # Install
 
 Just add the following line to your podfile.
