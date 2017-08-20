@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "ScrollableSlider"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "This podspec can be used to extract the scrollabeSlider project."
   s.description  = <<-DESC
                     This pod is used for creating a scrollable slider.
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/jaichaudhry/ScrollableSlider.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/jaichaudhry/ScrollableSlider.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
